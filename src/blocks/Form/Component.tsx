@@ -1,4 +1,5 @@
 'use client'
+
 import type { Form as FormType } from '@payloadcms/plugin-form-builder/types'
 
 import { useRouter } from 'next/navigation'
@@ -10,6 +11,7 @@ import type { SerializedEditorState } from '@payloadcms/richtext-lexical/lexical
 
 import { buildInitialFormState } from './buildInitialFormState'
 import { fields } from './fields'
+// THIS IS NEVER EVER SUPPOSED TO BE IMPORTED IN A CLIENT COMPONENT. THIS IS AN ACTUAL SERVER LOGICS MODULES, WORKING WITH .env.
 import { getClientSideURL } from '@/utilities/getURL'
 
 export type Value = unknown

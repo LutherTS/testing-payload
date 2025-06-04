@@ -1,3 +1,5 @@
+'use agnostic'
+
 import type { FieldHook } from 'payload'
 
 export const formatSlug = (val: string): string =>

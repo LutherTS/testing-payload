@@ -1,3 +1,5 @@
+'use agnostic'
+
 import { cn } from 'src/utilities/cn'
 import * as React from 'react'
 

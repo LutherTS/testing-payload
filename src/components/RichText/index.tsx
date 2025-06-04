@@ -1,3 +1,5 @@
+'use agnostic'
+
 import { MediaBlock } from '@/blocks/MediaBlock/Component'
 import { DefaultNodeTypes, SerializedBlockNode } from '@payloadcms/richtext-lexical'
 import { SerializedEditorState } from '@payloadcms/richtext-lexical/lexical'

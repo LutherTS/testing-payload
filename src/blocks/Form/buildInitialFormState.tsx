@@ -1,3 +1,5 @@
+'use agnostic'
+
 import type { FormFieldBlock } from '@payloadcms/plugin-form-builder/types'
 
 export const buildInitialFormState = (fields: FormFieldBlock[]) => {

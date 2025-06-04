@@ -1,3 +1,5 @@
+'use agnostic'
+
 import type { BannerBlock as BannerBlockProps } from 'src/payload-types'
 
 import { cn } from 'src/utilities/cn'

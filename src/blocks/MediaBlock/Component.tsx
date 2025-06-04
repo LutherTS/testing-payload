@@ -1,3 +1,5 @@
+'use agnostic'
+
 import type { StaticImageData } from 'next/image'
 
 import { cn } from 'src/utilities/cn'

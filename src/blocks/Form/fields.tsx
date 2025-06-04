@@ -1,3 +1,5 @@
+'use agnostic'
+
 import { Checkbox } from './Checkbox'
 import { Country } from './Country'
 import { Email } from './Email'

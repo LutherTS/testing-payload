@@ -1,5 +1,7 @@
 import canUseDOM from './canUseDOM'
 
+// These two should have been split. You're not supposed to have server and client logic in the same module.
+
 export const getServerSideURL = () => {
   let url = process.env.NEXT_PUBLIC_SERVER_URL
 

@@ -1,3 +1,5 @@
+'use agnostic'
+
 import React from 'react'
 
 import { Code } from './Component.client'

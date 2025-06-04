@@ -1,3 +1,5 @@
+'use agnostic'
+
 export const countryOptions = [
   {
     label: 'Afghanistan',

@@ -1,3 +1,5 @@
+'use agnostic'
+
 export const stateOptions = [
   { label: 'Alabama', value: 'AL' },
   { label: 'Alaska', value: 'AK' },

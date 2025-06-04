@@ -1,3 +1,5 @@
+'use agnostic'
+
 import RichText from '@/components/RichText'
 import React from 'react'
 

@@ -1,3 +1,5 @@
+'use agnostic'
+
 import React from 'react'
 
 import type { CallToActionBlock as CTABlockProps } from '@/payload-types'

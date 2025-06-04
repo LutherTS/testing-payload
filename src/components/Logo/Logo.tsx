@@ -1,3 +1,5 @@
+'use agnostic'
+
 import clsx from 'clsx'
 import React from 'react'
 
@@ -14,7 +16,7 @@ export const Logo = (props: Props) => {
   const priority = priorityFromProps || 'low'
 
   return (
-    /* eslint-disable @next/next/no-img-element */
+    /* not-eslint-disable @next/next/no-img-element */
     <img
       alt="Payload Logo"
       width={193}
