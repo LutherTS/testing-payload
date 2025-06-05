@@ -154,8 +154,8 @@ importers:
         specifier: ^15.0.4
         version: 15.0.4(eslint@9.24.0(jiti@1.21.6))(typescript@5.7.2)
       eslint-plugin-use-agnostic:
-        specifier: ^0.11.4
-        version: 0.11.4(eslint@9.24.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^1.0.0
+        version: 1.0.0(eslint@9.24.0(jiti@1.21.6))(typescript@5.7.2)
       postcss:
         specifier: ^8.4.38
         version: 8.4.49
@@ -3247,8 +3247,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-use-agnostic@0.11.4:
-    resolution: {integrity: sha512-EWWLB02wZl3Rf0p5dv8tcLz7iomSltLzZ24o7kIGBNcgX/Nwfy/BNW3HeWIcf/S+VIbNqyltojhXNxqiOAqQGw==}
+  eslint-plugin-use-agnostic@1.0.0:
+    resolution: {integrity: sha512-gldEnzSiHyFlQ5vbmMBo860dnDErZY1fPWwN/XsF7tj30sdKnuBeByMDyUcxMLD/aAlLzTMnmoMaNH/CFG0P1Q==}
     engines: {node: '>=18.18.0 <18.99 || >=20.9.0 <21.0.0 || >=21.1.0'}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -9332,7 +9332,7 @@ snapshots:
       regexp-ast-analysis: 0.6.0
       scslre: 0.2.0
 
-  eslint-plugin-use-agnostic@0.11.4(eslint@9.24.0(jiti@1.21.6))(typescript@5.7.2):
+  eslint-plugin-use-agnostic@1.0.0(eslint@9.24.0(jiti@1.21.6))(typescript@5.7.2):
     dependencies:
       eslint: 9.24.0(jiti@1.21.6)
       tsconfig-paths: 4.2.0
